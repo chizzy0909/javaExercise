@@ -107,6 +107,7 @@ public class basic1_4 {
     // 那么请返回 "fghijkl"这样的一个字符串，也就是 2个字母之前的字符串
     String s4="abcdefghijklmnopqrstuvwxyz";
 
+    //1111111111111111
   }
 
 }
