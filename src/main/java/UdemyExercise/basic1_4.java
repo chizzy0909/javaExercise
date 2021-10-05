@@ -108,7 +108,7 @@ public class basic1_4 {
     String s4="abcdefghijklmnopqrstuvwxyz";
 
     //11111111111111111111
-    ///1117
+
   }
 
 }
