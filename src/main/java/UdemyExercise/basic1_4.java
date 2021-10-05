@@ -105,9 +105,16 @@ public class basic1_4 {
 
     //14 已知字符串"abcd...xyz"，26个字母都包括的一个字符串，键盘输入2个字符，比如第一次输入e ，第二次如数 m，
     // 那么请返回 "fghijkl"这样的一个字符串，也就是 2个字母之前的字符串
-    String s4="abcdefghijklmnopqrstuvwxyz";
+    String s4 = "abcdefghijklmnopqrstuvwxyz";
+    Scanner input = new Scanner(System.in);
+    String str1 = input.next();
+    String str2 = input.next();
 
-    //11111111111111111111
+    int index1 = s4.indexOf(str1);
+    int index2 = s4.indexOf(str2);
+
+    String result = s4.substring(index1+1,index2);
+    System.out.println(result);
 
   }
 
