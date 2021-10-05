@@ -116,7 +116,7 @@ public class basic1_4 {
     String result = s4.substring(index1+1,index2);
     System.out.println(result);
 
-    //test
+
   }
 
 }
