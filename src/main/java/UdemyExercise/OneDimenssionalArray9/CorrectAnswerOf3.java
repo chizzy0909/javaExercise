@@ -2,7 +2,7 @@ package UdemyExercise.OneDimenssionalArray9;
 
 import java.util.Scanner;
 
-public class CorrectAnswerOf5 {
+public class CorrectAnswerOf3 {
 
   /**
    * Main Method
