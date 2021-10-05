@@ -1,8 +1,9 @@
 package UdemyExercise.OneDimenssionalArray9;
 
 import java.util.Scanner;
+//输入数组，得到的输入数字的个数
 
-public class CorrectAnswerOf3 {
+public class AA3 {
 
   /**
    * Main Method

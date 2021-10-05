@@ -6,7 +6,6 @@ package UdemyExercise.OneDimenssionalArray9;
   输人一个负数表示输入的结束。假设最高分为100。
  */
 
-//有问题
 
 import java.util.Scanner;
 
@@ -23,28 +22,33 @@ public class LowerThanAvg3 {
   public static void count(int[] array) {
     Scanner input = new Scanner(System.in);
     int sum = 0;
+    int count = 0;
 
-    for (int i = 0; i < array.length; i++) {
+    int i,j;
+    for ( i = 0; i < array.length; i++) {
       array[i] = input.nextInt();
+      int number = array[i];
 
-      if (array[i] > 0 && array[i] <= 100) {
-        sum += array[i];
-      } else if (array[i] == 0) {
+      if (number > 0 && number <= 100) {
+        sum += number;
+        count++;
+      } else {
         break;
+
       }
     }
 
-    double average = sum / array.length;
+    double average = (double) sum / count;
 
     int count1 = 0, count2 = 0;
-    for (int i = 0; i < array.length; i++) {
-      if (array[i] >= average) {
+    for ( j = 0; j < i; j++) {
+      if (array[j] >= average) {
         count1++;
-      } else if (array[i] < average) {
+      } else if (array[j] < average) {
         count2++;
       }
     }
-
+    System.out.println("The average is: " + average);
     System.out.println(
         "The count bigger than avg is " + count1 + "\nThe count lower than avg is " + count2);
   }
