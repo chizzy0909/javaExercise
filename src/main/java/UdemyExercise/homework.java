@@ -2,7 +2,7 @@ package UdemyExercise;
 
 import java.util.Scanner;
 
-public class basic1_4 {
+public class homework {
 
   public static void main(String[] args) {
 
@@ -90,8 +90,10 @@ public class basic1_4 {
 
     //11 请输出如下字符串
     //my uncle's dog eats nothing \ . "what a strange dog"
-    String s1 = "my uncle's dog eats nothing";
+    String s1 = "my uncle\'s dog eats nothing.";
     String s2 = "what a strange dog";
+    System.out.println(s1);
+    System.out.println(s2);
 
     //12 有一个字符串"sdflskjdfw2234234l" 判断 字符大写A是否在该字符串中。
     //不区分大小写，比如字符串"abc"的话，大写B或者小写b都算在"abc"中
@@ -115,8 +117,6 @@ public class basic1_4 {
 
     String result = s4.substring(index1+1,index2);
     System.out.println(result);
-
-    ///111
 
   }
 
